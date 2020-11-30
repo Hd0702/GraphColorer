@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HW3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3">
+				<Option output="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3/fast">
+				<Option output="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/haydendonofrio/CLionProjects/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/bfs.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/bfs.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/completeGraph.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/completeGraph.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/cycleGraph.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/cycleGraph.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/firstFit.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/firstFit.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/graph.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/graph.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/graphColorer.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/graphColorer.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/incidenceOrder.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/incidenceOrder.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/linkedList.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/main.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/randomGraph.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/randomGraph.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/randomOrder.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/randomOrder.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/smallestLast.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/smallestLast.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/smallestOriginalDegree.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/smallestOriginalDegree.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/haydendonofrio/CLionProjects/HW3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

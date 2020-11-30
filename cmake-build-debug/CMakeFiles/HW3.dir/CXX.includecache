@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/haydendonofrio/CLionProjects/HW3/graphColorer.cpp
+graphColorer.h
+/Users/haydendonofrio/CLionProjects/HW3/graphColorer.h
+
+/Users/haydendonofrio/CLionProjects/HW3/graphColorer.h
+../HW3/linkedList.h
+/Users/haydendonofrio/CLionProjects/HW3/linkedList.h
+string
+-
+fstream
+-
+
+/Users/haydendonofrio/CLionProjects/HW3/linkedList.h
+
