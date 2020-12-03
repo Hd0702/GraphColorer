@@ -23,7 +23,7 @@ void Bfs::order() {
                  adjList[neighbor->item].deleted = true;
                  notDeleted.remove(adjList[neighbor->item].edgeListEntry);
                  queue.push_front(neighbor->item);
-                 colorOrder.push_front(neighbor->item);
+                 colorOrder.push_back(neighbor->item);
              }
              neighbor = neighbor->next;
          }
@@ -35,7 +35,7 @@ void Bfs::order() {
              // get a new separate section of the graph
              currentItem = notDeleted.front()->item;
              adjList[currentItem].deleted = true;
-             colorOrder.push_front(currentItem);
+             colorOrder.push_back(currentItem);
              notDeleted.pop_front();
          }
     }

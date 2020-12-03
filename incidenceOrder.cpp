@@ -21,7 +21,7 @@ void IncidenceOrder::order() {
             continue;
         }
         int currentVertDegree = currentVert->item;
-        colorOrder.push_front(currentVertDegree);
+        colorOrder.push_back(currentVertDegree);
         incidenceOrder[highestIncidence].pop_front();
         adjList[currentVertDegree].deleted = true;
         LinkedList<int>::node * vertex = adjList[currentVertDegree].vertices.front();

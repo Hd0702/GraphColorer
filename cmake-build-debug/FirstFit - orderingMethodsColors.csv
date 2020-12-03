@@ -1,0 +1,9 @@
+V,FirstFit Complete - average Colors,FirstFit Cycle - average Colors,E,FirstFit Random E = 0 - average Colors,E,FirstFit Random E = V - average Colors,E,FirstFit Random E = (complete) * .25 - average Colors,E,FirstFit Random E = (complete) * .5 - average Colors,E,FirstFit Random E = (complete) * .75 - average Colors
+4,4,2,0,1,4,3,1.5,2,3,3,4.5,3
+8,8,2,0,1,8,3,7,3,14,4,21,5
+16,16,2,0,1,16,4,30,4,60,7,90,8
+32,32,2,0,1,32,3,124,6,248,10,372,17
+64,64,2,0,1,64,4,504,9,1008,16,1512,24
+128,128,2,0,1,128,4,2032,14,4064,27.4,6096,41
+256,256,2,0,1,256,4,8160,23.8,16320,43.4,24480,70.4
+512,512,2,0,1,512,4,32704,38.8,65408,73.8,98112,124.4

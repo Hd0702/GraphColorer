@@ -1,0 +1,9 @@
+V,IncidenceDegree Complete - average Colors,IncidenceDegree Cycle - average Colors,E,IncidenceDegree Random E = 0 - average Colors,E,IncidenceDegree Random E = V - average Colors,E,IncidenceDegree Random E = (complete) * .25 - average Colors,E,IncidenceDegree Random E = (complete) * .5 - average Colors,E,IncidenceDegree Random E = (complete) * .75 - average Colors
+4,4,2,0,1,4,3,1.5,2,3,3,4.5,3
+8,8,2,0,1,8,3,7,3,14,3,21,5
+16,16,2,0,1,16,3,30,4,60,6,90,8
+32,32,2,0,1,32,3,124,6,248,8,372,15
+64,64,2,0,1,64,3,504,9,1008,17,1512,22.6
+128,128,2,0,1,128,3,2032,14,4064,24.6,6096,40
+256,256,2,0,1,256,3,8160,22.6,16320,42.8,24480,69
+512,512,2,0,1,512,3,32704,36.8,65408,72.2,98112,123

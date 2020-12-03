@@ -1,0 +1,9 @@
+V,SmallestLast Complete - average terminal clique size,SmallestLast Cycle - average terminal clique size,E,SmallestLast Random E = 0 - average terminal clique size,E,SmallestLast Random E = V - average terminal clique size,E,SmallestLast Random E = (complete) * .25 - average terminal clique size,E,SmallestLast Random E = (complete) * .5 - average terminal clique size,E,SmallestLast Random E = (complete) * .75 - average terminal clique size
+4,4,2,0,1,4,3,1.5,2,3,3,4.5,3
+8,8,2,0,1,8,3,7,3,14,3,21,5
+16,16,2,0,1,16,2,30,3,60,5,90,8
+32,32,2,0,1,32,2,124,4,248,5,372,9
+64,64,2,0,1,64,3,504,4,1008,7,1512,12
+128,128,2,0,1,128,2,2032,4.6,4064,8,6096,15
+256,256,2,0,1,256,2,8160,5.4,16320,8.8,24480,17.6
+512,512,2,0,1,512,2,32704,4.8,65408,9.4,98112,18.6

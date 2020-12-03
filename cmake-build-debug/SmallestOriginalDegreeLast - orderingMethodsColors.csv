@@ -1,0 +1,9 @@
+V,SmallestOriginalDegreeLast Complete - average Colors,SmallestOriginalDegreeLast Cycle - average Colors,E,SmallestOriginalDegreeLast Random E = 0 - average Colors,E,SmallestOriginalDegreeLast Random E = V - average Colors,E,SmallestOriginalDegreeLast Random E = (complete) * .25 - average Colors,E,SmallestOriginalDegreeLast Random E = (complete) * .5 - average Colors,E,SmallestOriginalDegreeLast Random E = (complete) * .75 - average Colors
+4,4,2,0,1,4,3,1.5,2,3,3,4.5,3
+8,8,2,0,1,8,3,7,3,14,3,21,5
+16,16,2,0,1,16,3,30,4,60,6,90,8
+32,32,2,0,1,32,3,124,6,248,8,372,13
+64,64,2,0,1,64,4,504,9,1008,15,1512,21.6
+128,128,2,0,1,128,3,2032,14,4064,23,6096,38.6
+256,256,2,0,1,256,3,8160,21.6,16320,41,24480,67
+512,512,2,0,1,512,3,32704,37.2,65408,71,98112,119.6

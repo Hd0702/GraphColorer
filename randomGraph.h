@@ -12,12 +12,12 @@ private:
     int distrCounter = 1;
     int distrSize = 1;
     int * randomDistribution = nullptr;
-    int numConflicts = 0;
+    int * numConflicts;
     int GetRandomNumber(int, std::string);
 public:
     RandomGraph(int, int, std::string);
     ~RandomGraph();
-    int GetNumConflicts();
+    int * GetNumConflicts();
 };
 
 

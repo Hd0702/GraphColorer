@@ -15,7 +15,3 @@ CompleteGraph::CompleteGraph(int vertCount) {
         }
     }
 }
-
-//CompleteGraph::~CompleteGraph() {
-//    delete [] adjList;
-//}

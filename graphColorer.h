@@ -23,10 +23,9 @@ class GraphColorer {
 private:
     int numVerts;
 protected:
-    // this should be an array of size verticies not a list
-    // this is so we can immediately jump to vertices
     AdjacencyListEntry * adjList;
     LinkedList<int> * edgeList;
+    int * degreesWhenColored;
     LinkedList<int> colorOrder;
     int terminalCliqueSize = 0;
     int highestDegreeDeleted = 0;
@@ -36,6 +35,8 @@ public:
     void readFile(const std::string);
     int color();
     virtual ~GraphColorer();
+    int getTerminalCliqueSize();
+    int * getDegreesWhenColored();
 
 };
 

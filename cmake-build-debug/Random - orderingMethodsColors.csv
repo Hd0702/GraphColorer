@@ -1,0 +1,9 @@
+V,Random Complete - average Colors,Random Cycle - average Colors,E,Random Random E = 0 - average Colors,E,Random Random E = V - average Colors,E,Random Random E = (complete) * .25 - average Colors,E,Random Random E = (complete) * .5 - average Colors,E,Random Random E = (complete) * .75 - average Colors
+4,4,2,0,1,4,3,1.5,2,3,3,4.5,3
+8,8,3,0,1,8,3,7,3,14,4,21,5
+16,16,3,0,1,16,4,30,4,60,7,90,9
+32,32,3,0,1,32,3,124,6,248,10,372,15
+64,64,3,0,1,64,4,504,10,1008,16,1512,22
+128,128,3,0,1,128,4,2032,15,4064,25.8,6096,42
+256,256,3,0,1,256,4,8160,23.2,16320,43.8,24480,70.2
+512,512,3,0,1,512,4,32704,38.8,65408,75.2,98112,123

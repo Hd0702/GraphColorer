@@ -5,12 +5,14 @@
 #include "randomGraph.h"
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
-#include <math.h>
 #include <vector>
-#include <iostream>
 
 RandomGraph::RandomGraph(int vertCount, int edgeCount, std::string distributionType) {
     srand (time(NULL));
+    numConflicts = new int[vertCount + 1];
+    for (int i =0; i <= vertCount; i++) {
+        numConflicts[i] = 0;
+    }
     // dont allow for more edges than a complete graph
     if (edgeCount >= ((vertCount) * (vertCount- 1)) / 2) {
         edgeCount = (vertCount) * (vertCount - 1) / 2;
@@ -23,23 +25,16 @@ RandomGraph::RandomGraph(int vertCount, int edgeCount, std::string distributionT
                 adjList[attachEdge].push_back(randNum);
                 adjList[randNum].push_back(attachEdge);
                  i += 1;
-            }
-            else {
-                numConflicts++;
+                 numConflicts[attachEdge] += 1;
+                 numConflicts[randNum] += 1;
             }
     }
 }
-// create an array with a known length
-// if random, each entry exists once
-// for skewed we could have 10 entries for 1, 9 entries for 2, 8 entries for 3, so on
-// then get a random number from that
 
 int RandomGraph::GetRandomNumber(int vertCount, std::string distributionType) {
     if (randomDistribution == nullptr) {
         std::vector<int> debugVector;
         randomDistribution = new int[vertCount * vertCount];
-        // switch to if statement here
-        int disTypeCompairson = strcmp(distributionType.c_str(), "Skewed");
         if (distributionType == "Skewed")  {// Skewed
             for (int i = 1; i <= vertCount; i++) {
                 for (int j = vertCount; j >= i; j--) {
@@ -80,7 +75,7 @@ int RandomGraph::GetRandomNumber(int vertCount, std::string distributionType) {
     return randomDistribution[rand() % distrSize + 1];
 }
 
-int RandomGraph::GetNumConflicts() {
+int * RandomGraph::GetNumConflicts() {
     return numConflicts;
 }
 
@@ -88,4 +83,5 @@ RandomGraph::~RandomGraph() {
     if (randomDistribution != nullptr) {
         delete [] randomDistribution;
     }
+    delete numConflicts;
 }

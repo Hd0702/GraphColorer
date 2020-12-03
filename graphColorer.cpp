@@ -3,24 +3,35 @@
 //
 
 #include "graphColorer.h"
-
+#include <iostream>
 GraphColorer::~GraphColorer() {
     delete [] adjList;
     delete [] edgeList;
+    delete [] degreesWhenColored;
 }
 
 int GraphColorer::getNumVerts() {
     return numVerts;
 }
 
+int GraphColorer::getTerminalCliqueSize() {
+    return terminalCliqueSize;
+}
+
+int * GraphColorer::getDegreesWhenColored() {
+    return degreesWhenColored;
+}
 
 int GraphColorer::color() {
     int highestColorUsed = 0;
+    degreesWhenColored = new int[colorOrder.length() + 1];
+    int counter = 1;
     while (colorOrder.length() > 0) {
         int vertex = colorOrder.front()->item;
+        degreesWhenColored[counter++] = adjList[vertex].degree;
         colorOrder.pop_front();
         int lowestColor = 1;
-        bool * colorsAvailable = new bool[numVerts];
+        bool * colorsAvailable = new bool[numVerts + 1];
         for (int i =0; i < numVerts + 1; i++) {
             colorsAvailable[i] = true;
         }
@@ -83,8 +94,10 @@ void GraphColorer::readFile(const std::string fileName) {
         // since we are not sure how many edges are in the last vertex, read until the end of file
         int finalEdgeCounter = 0;
         while(getline(fileReader, line)) {
-            adjList[numVerts].vertices.push_front(std::stoi(line));
-            finalEdgeCounter += 1;
+            if (!line.empty()) {
+                adjList[numVerts].vertices.push_front(std::stoi(line));
+                finalEdgeCounter += 1;
+            }
         }
         adjList[numVerts].degree = finalEdgeCounter;
         adjList[numVerts].originalDegree = finalEdgeCounter;
